@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Dewatering service</title>
+  <title>Project Sakajojo</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -37,7 +37,7 @@
   ======================================================== -->
 </head>
 
-<body class="service-details-page">
+<body class="project-details-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -45,33 +45,33 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.png" alt=""> 
-        <!--<h1 class="sitename"></h1> <span>.</span>-->
-     </a>
+         <!--<h1 class="sitename"></h1> <span>.</span>-->
+      </a>
 
-     <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li class="dropdown"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li class="dropdown"><a href="#"><span>Dewatering</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="service-dewatering.html">Dewatering Services</a></li>
-                <li><a href="service-dewateringconsult.html">Consultation Services</a></li>
-              </ul>
-            </li>
-            
-            <li><a href="service-waterproofing.html">Waterproofing Services</a></li>
-            <li><a href="service-tiling.html">Tiling Services</a></li>
-            <li><a href="service-geho-pumps.html">Sale, Lease & Maintenance of GEHO Pumps</a></li>
-          </ul>
-        </li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-    </nav>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li class="dropdown"><a href="services.html"><span>Dewatering</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="service-dewatering.html">Dewatering Services</a></li>
+                  <li><a href="service-dewateringconsult.html">Consultation Services</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="service-waterproofing.html">Waterproofing Services</a></li>
+              <li><a href="service-tiling.html">Tiling Services</a></li>
+              <li><a href="service-geho-pumps.html">Sale, Lease & Maintenance of GEHO Pumps</a></li>
+            </ul>
+          </li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
     </div>
   </header>
@@ -81,67 +81,111 @@
     <!-- Page Title -->
     <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
       <div class="container position-relative">
-        <h3>Dewatering services</h3>
+        <h1>Project Sakajojo</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Dewatering </li>
+            <li class="current">Project Sakajojo</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Project Details Section -->
+    <section id="project-details" class="project-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
-        <div class="row gy-4">
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="service-dewatering.html"  class="active">Dewatering services and consultation</a>
-              <a href="service-geho-pumps.html">Sales, Leasing & Maintenance of GEHO Pumps</a>
-              <a href="service-waterproofing.html">Waterproofing Services</a>
-              <a href="service-tiling.html">Tiling Services</a>
+            <div class="swiper-slide">
+              <img src="assets/img/projects/before-sakajojo.jpg" alt="">
             </div>
 
-            <h4>Dewatering service</h4>
-            <p><i>Reliable Groundwater Control for Safe & Efficient Projects</i></p>
-    <p>
-            <p>At Dewatering Construction Etc. Ltd (DCEL), we provide advanced construction dewatering solutions to manage groundwater and surface water effectively. Our services ensure dry, stable, and safe work environments, helping construction projects stay on schedule, within budget, and compliant with industry regulations.</p>
+            <div class="swiper-slide">
+              <img src="assets/img/projects/after-sakajojo.jpg" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-description">
+              <h2>This is an example of portfolio details</h2>
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              </p>
+              <p>
+                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+
+              <p>
+                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+              </p>
+
+              <p>
+                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+              </p>
+
+            </div>
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Expert Groundwater Control</h3>
-            <p>
-              Our dewatering solutions help mitigate risks associated with excess water, ensuring structural integrity and project efficiency.
-            </p>
-            <ul>
-              <li><i class="fa-solid fa-water"></i> <strong>Wellpoint Dewatering</strong> - Ideal for shallow excavations using small wells and vacuum pumps.</li>
-              <li><i class="fa-solid fa-water"></i> <strong>Deep Well Dewatering</strong> - Removes high groundwater volumes for deeper excavations.</li>
-              <li><i class="fa-solid fa-water"></i> <strong>Open Pumping Systems</strong> - Removes surface water from construction sites.</li>
-              <li><i class="fa-solid fa-water"></i> <strong>Horizontal Drainage Systems</strong> - Channels water away using perforated pipes and drainage layers.</li>
-            </ul>
-            
-            <h3>Past Projects & Success Stories</h3>
-            <p><strong>Deep Well Dewatering for a MC&T in Vitoria Island Lagos</strong></p>
-            <p>Successfully reduced groundwater levels by 6 meters in 5 days, ensuring uninterrupted construction.</p>
-            
-            <p><strong>Wellpoint Dewatering for Pipeline Installation</strong></p>
-            <p>Implemented wellpoint systems to stabilize soil and remove excess water, enabling faster and safer installation.</p>
-            <div class="text-center mt-4">
-              <a href="service-dewateringconsult.html" class="btn btn-primary btn-lg">Get a Quote Now</a>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> Web design</li>
+                <li><strong>Client</strong> ASU Company</li>
+                <li><strong>Project date</strong> 01 March, 2020</li>
+                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
+                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+              </ul>
             </div>
           </div>
 
         </div>
 
       </div>
-     
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Project Details Section -->
 
   </main>
 
@@ -207,8 +251,7 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
- 
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
